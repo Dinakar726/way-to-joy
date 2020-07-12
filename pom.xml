@@ -18,4 +18,15 @@
   <build>
     <finalName>way-to-joy</finalName>
   </build>
+  <distributionManagement>
+		 <snapshotRepository>
+		    <id>nexus</id>
+		    <url>http://172.31.3.42:8081/repository/way-to-joy-snapshot/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexus</id>
+		    <url>http://172.31.3.42:8081/repository/way-to-joy-release/</url>
+		</repository>
+  	</distributionManagement>
 </project>
